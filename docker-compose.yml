@@ -1,0 +1,16 @@
+services:
+  phoenix:
+    image: arizephoenix/phoenix:latest
+    container_name: fifa-chatbot-phoenix
+    ports:
+      - "6006:6006" # Phoenix UI + OTLP HTTP collector
+      - "4317:4317" # OTLP gRPC collector
+    environment:
+      - PHOENIX_WORKING_DIR=/mnt/data
+    volumes:
+      - phoenix_data:/mnt/data
+    restart: unless-stopped
+
+volumes:
+  phoenix_data:
+    driver: local

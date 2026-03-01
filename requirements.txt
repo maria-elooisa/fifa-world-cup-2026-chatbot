@@ -1,0 +1,34 @@
+fastapi>=0.110.0
+uvicorn>=0.40.0
+requests>=2.32.5
+pydantic>=2.11.0,<3
+faiss-cpu==1.13.2
+openai>=1.83.0
+python-dotenv>=1.1.1
+streamlit>=1.32.0
+pytest==7.4.0
+PyPDF2==3.0.1
+Pillow>=10.4.0
+
+# CrewAI (orquestração de agentes)
+crewai==1.9.3
+crewai-tools==1.9.3
+
+# Logging e monitoramento
+python-json-logger>=2.0.0
+arize-phoenix-otel>=0.14.0
+opentelemetry-api==1.34.1
+opentelemetry-sdk==1.34.1
+opentelemetry-exporter-otlp-proto-http==1.34.1
+
+# Type hints
+typing-extensions>=4.8.0
+
+# Acessibilidade - Reconhecimento de voz e TTS
+SpeechRecognition>=3.10.0
+gTTS>=2.5.0
+pydub>=0.25.1
+audio-recorder-streamlit>=0.0.8
+
+# Traducao automatica
+googletrans>=4.0.0rc1
