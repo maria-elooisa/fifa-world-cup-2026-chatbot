@@ -1,9 +1,3 @@
----
-title: FIFA World Cup Chatbot
-sdk: docker
-app_port: 8501
----
-
 # FIFA World Cup Chatbot ⚽
 
 Assistente multiagente para perguntas sobre Copa do Mundo (história + temas atuais da Copa 2026), com:
